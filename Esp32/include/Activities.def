@@ -1,0 +1,15 @@
+// ACTIVIDAD(simbolo, codigo ASCII de Android, ID decimal, ruta WAV).
+// Una fila genera el enum y la tabla. ID sin cero inicial: 08 no es C++ decimal.
+ACTIVIDAD(DESPERTAR,   "01",  1, "/audio/0001.wav")
+ACTIVIDAD(DESAYUNAR,   "02",  2, "/audio/0002.wav")
+ACTIVIDAD(BANARSE,     "03",  3, "/audio/0003.wav")
+ACTIVIDAD(CAMINATA,    "04",  4, "/audio/0004.wav")
+ACTIVIDAD(MERENDAR,    "05",  5, "/audio/0005.wav")
+ACTIVIDAD(ALMORZAR,    "06",  6, "/audio/0006.wav")
+ACTIVIDAD(CENAR,       "07",  7, "/audio/0007.wav")
+ACTIVIDAD(TALLER,      "08",  8, "/audio/0008.wav")
+ACTIVIDAD(DORMIR,      "09",  9, "/audio/0009.wav")
+ACTIVIDAD(MEDICAMENTO, "10", 10, "/audio/0010.wav")
+ACTIVIDAD(CEPILLARSE,  "11", 11, "/audio/0011.wav")
+ACTIVIDAD(DESCANSO,    "12", 12, "/audio/0012.wav")
+ACTIVIDAD(EMERGENCIA,  "99", 99, "/audio/0099.wav")
