@@ -2,7 +2,7 @@
 
 ### Sistema de asistencia y acompañamiento mediante aplicación Android y ESP32
 
-**Saludarte** es un proyecto desarrollado en el contexto de PSU, que integra una aplicación móvil Android, un sistema embebido basado en ESP32 y un diseño de hardware electrónico para implementar funciones de asistencia, recordatorios y comunicación entre dispositivos.
+**Saludarte_PSU** es un proyecto desarrollado en el contexto de PSU, que integra una aplicación móvil Android, un sistema embebido basado en ESP32 y un diseño de hardware electrónico para implementar funciones de asistencia, recordatorios y comunicación entre dispositivos.
 
 El repositorio reúne el código fuente, los recursos multimedia y los archivos de diseño electrónico utilizados durante el desarrollo, montaje y pruebas del sistema.
 
