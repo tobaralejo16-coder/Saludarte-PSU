@@ -1,0 +1,31 @@
+# Android Studio y Gradle
+.gradle/
+.kotlin/
+.idea/
+**/build/
+local.properties
+*.iml
+*.apk
+*.aab
+
+# PlatformIO y ESP32
+.pio/
+.pioenvs/
+.piolibdeps/
+**/__pycache__/
+*.pyc
+
+# KiCad
+*.kicad_prl
+*.lck
+*-backups/
+_autosave-*
+*.kicad_autosave
+**/.history/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+Thumbs.db
+.DS_Store
