@@ -1,0 +1,27 @@
+{
+  "footprint_original_sha256": "fdfe43718848da8f13be912406d322d5b5385bde396d54909cc667f81b14fa55",
+  "pads_ESP32_identicos": true,
+  "clearance_min_mm": 0.25,
+  "tracks": 122,
+  "vias": 4,
+  "ground_pads": [
+    "TP3.1",
+    "C1.2",
+    "R1.2",
+    "J1.2",
+    "C3.2",
+    "U2.JP1.2",
+    "C5.2",
+    "U3.JP1.2",
+    "C2.2",
+    "C4.2",
+    "U4.JP1.2",
+    "U1.14",
+    "U1.32",
+    "U1.38"
+  ],
+  "ESP32_5V_pin19": true,
+  "BTL_3_canales": true,
+  "drc_errors": 0,
+  "unconnected": 0
+}

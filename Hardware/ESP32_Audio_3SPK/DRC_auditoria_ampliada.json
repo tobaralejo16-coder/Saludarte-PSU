@@ -1,0 +1,107 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-27T15:21:10",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [
+        {
+            "description": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal doesn't match symbol's footprint filters (Connector*:*_1x??_*)",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 15.0,
+                        "y": 96.0
+                    },
+                    "uuid": "1efc2e1b-482e-4048-85c3-984ae3f2288c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal doesn't match symbol's footprint filters (Connector*:*_1x??_*)",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 76.0,
+                        "y": 101.0
+                    },
+                    "uuid": "e1a3b418-2ee7-4c9f-8ea1-aff608782cec"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal doesn't match symbol's footprint filters (Connector*:*_1x??_*)",
+            "items": [
+                {
+                    "description": "Footprint J3",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 22.08
+                    },
+                    "uuid": "c39af564-a643-4f44-93b6-967e11a2fd5d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal doesn't match symbol's footprint filters (Connector*:*_1x??_*)",
+            "items": [
+                {
+                    "description": "Footprint J4",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 48.08
+                    },
+                    "uuid": "e6c726b0-a40f-40dd-a2aa-f23ba9ddfeeb"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal doesn't match symbol's footprint filters (Connector*:*_1x??_*)",
+            "items": [
+                {
+                    "description": "Footprint J5",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 74.08
+                    },
+                    "uuid": "cd9156f4-1ec0-4676-9e4b-e26468ca38f1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical doesn't match symbol's footprint filters (Jumper* TestPoint*2Pads* TestPoint*Bridge*)",
+            "items": [
+                {
+                    "description": "Footprint JP1",
+                    "pos": {
+                        "x": 12.5,
+                        "y": 62.0
+                    },
+                    "uuid": "959e6e0e-0973-4431-b09f-9d43517a6457"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        }
+    ],
+    "source": "ESP32_Audio_3SPK.kicad_pcb",
+    "unconnected_items": [],
+    "violations": []
+}

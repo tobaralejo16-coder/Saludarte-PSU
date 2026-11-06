@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\User\Documents\Codex\2026-09-25\files-pasted-by-the-user-quiero-2\outputs\ESP32_Audio_3SPK_v0_3\ESP32_Audio_3SPK.kicad_sch</source>
+    <date>2026-09-26T17:25:19</date>
+    <tool>Eeschema 10.0.6</tool>
+    <textvar name="ESTADO">PRELIMINAR - NO FABRICAR</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ESP32 AUDIO - 3 PARLANTES / PROTOTIPO</title>
+        <company/>
+        <rev>0.3</rev>
+        <date>2026-09-26</date>
+        <source>ESP32_Audio_3SPK.kicad_sch</source>
+        <comment number="1" value="THT + modulos extraibles / VALIDAR ANTES DE FABRICAR"/>
+        <comment number="2" value="ESP32 DevKitC 32D-F segun ZIP del usuario"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>470u / 10V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c88022b1-433d-5bea-b605-55213fd687e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100n / 25V</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d56beeb0-2e4f-5b8a-9d50-8b8881cf5cba</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100u / 10V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bacd5c0-b0f5-592b-ac06-2c225f0e68da</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100u / 10V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e11b8779-d863-55a9-914c-bf24933351d8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100u / 10V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afd23208-5205-5ced-9bb7-1bd1f72de04d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>T1.25A / 5x20 / TBD</value>
+      <footprint>Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open</footprint>
+      <fields>
+        <field name="Footprint">Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2243916d-afbb-5e3a-a501-36b561fc576a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H1">
+      <value>M3 NPTH</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca7627b1-f3a4-5e05-93f8-4dbad1dce96e</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H2">
+      <value>M3 NPTH</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f38555c-126b-51a8-82ed-cbbfa038d177</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H3">
+      <value>M3 NPTH</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8332182e-5fa9-55fd-9d4f-3c0826719ef7</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H4">
+      <value>M3 NPTH</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c697e6d8-e8e5-539a-b97b-9c19fab4128e</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>5V DC / JACK EXTERNO</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13832d7d-e62e-5941-8932-5d0e05388d69</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>SW EXTERNO / &gt;=3A DC</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6fbbbc3-8102-585d-a71a-e3ac15cdf896</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>SPK1 / 8 ohm / 1W</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e30087b3-1326-5bfd-8612-ef26ba4e6fef</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>SPK2 / 8 ohm / 1W</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81148816-1696-5f1a-a242-b99bb7a90ba2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>SPK3 / 8 ohm / 1W</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>087ebde4-1823-522f-b55a-de16d446111c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP1">
+      <value>5V ESP / SHUNT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d597202-5c5b-5d99-b8c0-e654daeea72f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>SUP90P06-09L-E3</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.vishay.com/doc/?73010=</datasheet>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">https://www.vishay.com/doc/?73010=</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="Q_PMOS_GDS" description="P-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="transistor PMOS P-MOS P-MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>725bcacf-8afe-5386-82fa-d1f9503f51de</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>100k / 0.25W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c1643e8-e798-5ad4-897b-1c62811909b1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>33R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef737cf1-9420-5002-9dbe-820a97ed70a4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>33R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>113f95a5-477d-56b2-995d-cc5cf02ca333</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>33R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e81e6c50-c747-5df3-8087-231dd72e2de8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>100k / 1%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3c9528e-760c-58f4-8375-70dac085306b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>100k / 1%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0250259-3ed3-572d-906a-5e48be1c0d93</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>100k / 1%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f71b16c-18d7-562a-9e09-3ddd946590b5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP1">
+      <value>+5V_SYS</value>
+      <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>097319bf-cb4b-5b44-8691-22fc5873c405</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP2">
+      <value>+3V3</value>
+      <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f42af100-cd91-541d-b1b8-d1f7bf76a5f7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP3">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5b14e1a-b0d6-54fb-9939-8c2166c221ba</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32-DEVKITC-32D-F</value>
+      <footprint>Proyecto_Audio:MODULE_ESP32-DEVKITC</footprint>
+      <fields>
+        <field name="Footprint">Proyecto_Audio:MODULE_ESP32-DEVKITC</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="ESP32-DEVKITC" description="Transceiver; 802.11 b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart Ready 4.x Dual Mode"/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de7f55cf-9db3-59ed-8863-13f66b811e10</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="38"/>
+            <pin num="37"/>
+            <pin num="36"/>
+            <pin num="35"/>
+            <pin num="34"/>
+            <pin num="33"/>
+            <pin num="32"/>
+            <pin num="31"/>
+            <pin num="30"/>
+            <pin num="29"/>
+            <pin num="28"/>
+            <pin num="27"/>
+            <pin num="26"/>
+            <pin num="25"/>
+            <pin num="24"/>
+            <pin num="23"/>
+            <pin num="22"/>
+            <pin num="21"/>
+            <pin num="20"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>MAX98357A / ADAFRUIT 3006</value>
+      <footprint>Proyecto_Audio:AMP_3006_DOCK_1x07_2WIRE</footprint>
+      <datasheet>https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/pinouts</datasheet>
+      <fields>
+        <field name="Footprint">Proyecto_Audio:AMP_3006_DOCK_1x07_2WIRE</field>
+        <field name="Datasheet">https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/pinouts</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="ADAFRUIT_3006_MODULO" description=""/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fad24f1-dcd8-5ee1-aad8-b5954cbc10f6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="JP1.1"/>
+            <pin num="JP1.6"/>
+            <pin num="JP1.7"/>
+            <pin num="JP1.5"/>
+            <pin num="JP1.2"/>
+            <pin num="X1.2"/>
+            <pin num="X1.1"/>
+            <pin num="JP1.4"/>
+            <pin num="JP1.3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>MAX98357A / ADAFRUIT 3006</value>
+      <footprint>Proyecto_Audio:AMP_3006_DOCK_1x07_2WIRE</footprint>
+      <datasheet>https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/pinouts</datasheet>
+      <fields>
+        <field name="Footprint">Proyecto_Audio:AMP_3006_DOCK_1x07_2WIRE</field>
+        <field name="Datasheet">https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/pinouts</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="ADAFRUIT_3006_MODULO" description=""/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>807e3723-49e9-5774-bc73-3f5917c3d393</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="JP1.1"/>
+            <pin num="JP1.6"/>
+            <pin num="JP1.7"/>
+            <pin num="JP1.5"/>
+            <pin num="JP1.2"/>
+            <pin num="X1.2"/>
+            <pin num="X1.1"/>
+            <pin num="JP1.4"/>
+            <pin num="JP1.3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>MAX98357A / ADAFRUIT 3006</value>
+      <footprint>Proyecto_Audio:AMP_3006_DOCK_1x07_2WIRE</footprint>
+      <datasheet>https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/pinouts</datasheet>
+      <fields>
+        <field name="Footprint">Proyecto_Audio:AMP_3006_DOCK_1x07_2WIRE</field>
+        <field name="Datasheet">https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/pinouts</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Proyecto" part="ADAFRUIT_3006_MODULO" description=""/>
+      <property name="Sheetname" value="ESP32_Audio_3SPK"/>
+      <property name="Sheetfile" value="ESP32_Audio_3SPK.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f17b886-0184-5707-9869-c014a7016f9f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="JP1.1"/>
+            <pin num="JP1.6"/>
+            <pin num="JP1.7"/>
+            <pin num="JP1.5"/>
+            <pin num="JP1.2"/>
+            <pin num="X1.2"/>
+            <pin num="X1.1"/>
+            <pin num="JP1.4"/>
+            <pin num="JP1.3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Proyecto" part="ADAFRUIT_3006_MODULO">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADAFRUIT_3006_MODULO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="JP1.1" name="VIN" type="power_in"/>
+        <pin num="JP1.2" name="GND" type="power_in"/>
+        <pin num="JP1.3" name="SD_MODE" type="input"/>
+        <pin num="JP1.4" name="GAIN" type="input"/>
+        <pin num="JP1.5" name="DIN" type="input"/>
+        <pin num="JP1.6" name="BCLK" type="input"/>
+        <pin num="JP1.7" name="LRC" type="input"/>
+        <pin num="X1.1" name="OUT-" type="output"/>
+        <pin num="X1.2" name="OUT+" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Proyecto" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Proyecto" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Proyecto" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Proyecto" part="ESP32-DEVKITC">
+      <description>Transceiver; 802.11 b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart Ready 4.x Dual Mode</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-DEVKITC</field>
+        <field name="Footprint">ESP32-DEVKITC:MODULE_ESP32-DEVKITC</field>
+        <field name="Datasheet"/>
+        <field name="Description">Transceiver; 802.11 b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart Ready 4.x Dual Mode</field>
+        <field name="MF">Espressif Systems</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/ESP32-DEVKITC-32D-F/Espressif+Systems/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">N/A</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/ESP32-DEVKITC-32D-F/Espressif+Systems/view-part/?ref=snap</field>
+        <field name="MP">ESP32-DEVKITC-32D-F</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">ESPRESSIF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_in"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="SENSOR_VP" type="input"/>
+        <pin num="4" name="SENSOR_VN" type="input"/>
+        <pin num="5" name="IO34" type="bidirectional"/>
+        <pin num="6" name="IO35" type="bidirectional"/>
+        <pin num="7" name="IO32" type="bidirectional"/>
+        <pin num="8" name="IO33" type="bidirectional"/>
+        <pin num="9" name="IO25" type="bidirectional"/>
+        <pin num="10" name="IO26" type="bidirectional"/>
+        <pin num="11" name="IO27" type="bidirectional"/>
+        <pin num="12" name="IO14" type="bidirectional"/>
+        <pin num="13" name="IO12" type="bidirectional"/>
+        <pin num="14" name="GND1" type="power_in"/>
+        <pin num="15" name="IO13" type="bidirectional"/>
+        <pin num="16" name="SD2" type="bidirectional"/>
+        <pin num="17" name="SD3" type="bidirectional"/>
+        <pin num="18" name="CMD" type="bidirectional"/>
+        <pin num="19" name="EXT_5V" type="power_in"/>
+        <pin num="20" name="CLK" type="input"/>
+        <pin num="21" name="SD0" type="bidirectional"/>
+        <pin num="22" name="SD1" type="bidirectional"/>
+        <pin num="23" name="IO15" type="bidirectional"/>
+        <pin num="24" name="IO2" type="bidirectional"/>
+        <pin num="25" name="IO0" type="bidirectional"/>
+        <pin num="26" name="IO4" type="bidirectional"/>
+        <pin num="27" name="IO16" type="bidirectional"/>
+        <pin num="28" name="IO17" type="bidirectional"/>
+        <pin num="29" name="IO5" type="bidirectional"/>
+        <pin num="30" name="IO18" type="bidirectional"/>
+        <pin num="31" name="IO19" type="bidirectional"/>
+        <pin num="32" name="GND2" type="power_in"/>
+        <pin num="33" name="IO21" type="bidirectional"/>
+        <pin num="34" name="RXD0" type="input"/>
+        <pin num="35" name="TXD0" type="output"/>
+        <pin num="36" name="IO22" type="bidirectional"/>
+        <pin num="37" name="IO23" type="bidirectional"/>
+        <pin num="38" name="GND3" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Proyecto" part="Fuse">
+      <description>Fuse</description>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Proyecto" part="Jumper_2_Bridged">
+      <description>Jumper, 2-pole, closed/bridged</description>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Bridged</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Jumper, 2-pole, closed/bridged</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Proyecto" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+    </libpart>
+    <libpart lib="Proyecto" part="Q_PMOS_GDS">
+      <description>P-MOSFET transistor, gate/drain/source</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GDS</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">P-MOSFET transistor, gate/drain/source</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Proyecto" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Proyecto" part="TestPoint">
+      <description>test point</description>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Proyecto">
+      <uri>${KIPRJMOD}/Proyecto.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+3V3" class="Default">
+      <node ref="TP2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="3V3_1" pintype="power_in"/>
+    </net>
+    <net code="2" name="/+5V_ESP" class="Default">
+      <node ref="JP1" pin="2" pinfunction="B_2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="EXT_5V_19" pintype="power_in"/>
+    </net>
+    <net code="3" name="/+5V_FUSED" class="Default">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+    </net>
+    <net code="4" name="/+5V_IN" class="Default">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+    </net>
+    <net code="5" name="/+5V_SW" class="Default">
+      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="D_2" pintype="passive"/>
+    </net>
+    <net code="6" name="/+5V_SYS" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="JP1.1" pinfunction="VIN_JP1.1" pintype="power_in"/>
+      <node ref="U3" pin="JP1.1" pinfunction="VIN_JP1.1" pintype="power_in"/>
+      <node ref="U4" pin="JP1.1" pinfunction="VIN_JP1.1" pintype="power_in"/>
+    </net>
+    <net code="7" name="/GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="GND1_14" pintype="power_in"/>
+      <node ref="U1" pin="32" pinfunction="GND2_32" pintype="power_in"/>
+      <node ref="U1" pin="38" pinfunction="GND3_38" pintype="power_in"/>
+      <node ref="U2" pin="JP1.2" pinfunction="GND_JP1.2" pintype="power_in"/>
+      <node ref="U3" pin="JP1.2" pinfunction="GND_JP1.2" pintype="power_in"/>
+      <node ref="U4" pin="JP1.2" pinfunction="GND_JP1.2" pintype="power_in"/>
+    </net>
+    <net code="8" name="/GPIO22_DATA" class="Default">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="IO22_36" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/GPIO25_WS" class="Default">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="IO25_9" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/GPIO26_BCLK" class="Default">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="IO26_10" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/I2S_BCLK" class="Default">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="JP1.6" pinfunction="BCLK_JP1.6" pintype="input"/>
+      <node ref="U3" pin="JP1.6" pinfunction="BCLK_JP1.6" pintype="input"/>
+      <node ref="U4" pin="JP1.6" pinfunction="BCLK_JP1.6" pintype="input"/>
+    </net>
+    <net code="12" name="/I2S_DATA" class="Default">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="JP1.5" pinfunction="DIN_JP1.5" pintype="input"/>
+      <node ref="U3" pin="JP1.5" pinfunction="DIN_JP1.5" pintype="input"/>
+      <node ref="U4" pin="JP1.5" pinfunction="DIN_JP1.5" pintype="input"/>
+    </net>
+    <net code="13" name="/I2S_WS" class="Default">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="JP1.7" pinfunction="LRC_JP1.7" pintype="input"/>
+      <node ref="U3" pin="JP1.7" pinfunction="LRC_JP1.7" pintype="input"/>
+      <node ref="U4" pin="JP1.7" pinfunction="LRC_JP1.7" pintype="input"/>
+    </net>
+    <net code="14" name="/SPK1+" class="Default">
+      <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U2" pin="X1.2" pinfunction="OUT+_X1.2" pintype="output"/>
+    </net>
+    <net code="15" name="/SPK1-" class="Default">
+      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U2" pin="X1.1" pinfunction="OUT-_X1.1" pintype="output"/>
+    </net>
+    <net code="16" name="/SPK2+" class="Default">
+      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U3" pin="X1.2" pinfunction="OUT+_X1.2" pintype="output"/>
+    </net>
+    <net code="17" name="/SPK2-" class="Default">
+      <node ref="J4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U3" pin="X1.1" pinfunction="OUT-_X1.1" pintype="output"/>
+    </net>
+    <net code="18" name="/SPK3+" class="Default">
+      <node ref="J5" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U4" pin="X1.2" pinfunction="OUT+_X1.2" pintype="output"/>
+    </net>
+    <net code="19" name="/SPK3-" class="Default">
+      <node ref="J5" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U4" pin="X1.1" pinfunction="OUT-_X1.1" pintype="output"/>
+    </net>
+    <net code="20" name="Net-(Q1-G)" class="Default">
+      <node ref="Q1" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(U2-GAIN)" class="Default">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="JP1.4" pinfunction="GAIN_JP1.4" pintype="input"/>
+    </net>
+    <net code="22" name="Net-(U3-GAIN)" class="Default">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="JP1.4" pinfunction="GAIN_JP1.4" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(U4-GAIN)" class="Default">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U4" pin="JP1.4" pinfunction="GAIN_JP1.4" pintype="input"/>
+    </net>
+    <net code="24" name="unconnected-(U1-CLK-Pad20)" class="Default">
+      <node ref="U1" pin="20" pinfunction="CLK_20" pintype="input+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U1-CMD-Pad18)" class="Default">
+      <node ref="U1" pin="18" pinfunction="CMD_18" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U1-EN-Pad2)" class="Default">
+      <node ref="U1" pin="2" pinfunction="EN_2" pintype="input+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U1-IO0-Pad25)" class="Default">
+      <node ref="U1" pin="25" pinfunction="IO0_25" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U1-IO2-Pad24)" class="Default">
+      <node ref="U1" pin="24" pinfunction="IO2_24" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U1-IO4-Pad26)" class="Default">
+      <node ref="U1" pin="26" pinfunction="IO4_26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U1-IO5-Pad29)" class="Default">
+      <node ref="U1" pin="29" pinfunction="IO5_29" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U1-IO12-Pad13)" class="Default">
+      <node ref="U1" pin="13" pinfunction="IO12_13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U1-IO13-Pad15)" class="Default">
+      <node ref="U1" pin="15" pinfunction="IO13_15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U1-IO14-Pad12)" class="Default">
+      <node ref="U1" pin="12" pinfunction="IO14_12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U1-IO15-Pad23)" class="Default">
+      <node ref="U1" pin="23" pinfunction="IO15_23" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U1-IO16-Pad27)" class="Default">
+      <node ref="U1" pin="27" pinfunction="IO16_27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U1-IO17-Pad28)" class="Default">
+      <node ref="U1" pin="28" pinfunction="IO17_28" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1-IO18-Pad30)" class="Default">
+      <node ref="U1" pin="30" pinfunction="IO18_30" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1-IO19-Pad31)" class="Default">
+      <node ref="U1" pin="31" pinfunction="IO19_31" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1-IO21-Pad33)" class="Default">
+      <node ref="U1" pin="33" pinfunction="IO21_33" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1-IO23-Pad37)" class="Default">
+      <node ref="U1" pin="37" pinfunction="IO23_37" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1-IO27-Pad11)" class="Default">
+      <node ref="U1" pin="11" pinfunction="IO27_11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-IO32-Pad7)" class="Default">
+      <node ref="U1" pin="7" pinfunction="IO32_7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-IO33-Pad8)" class="Default">
+      <node ref="U1" pin="8" pinfunction="IO33_8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1-IO34-Pad5)" class="Default">
+      <node ref="U1" pin="5" pinfunction="IO34_5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1-IO35-Pad6)" class="Default">
+      <node ref="U1" pin="6" pinfunction="IO35_6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1-RXD0-Pad34)" class="Default">
+      <node ref="U1" pin="34" pinfunction="RXD0_34" pintype="input+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U1-SD0-Pad21)" class="Default">
+      <node ref="U1" pin="21" pinfunction="SD0_21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U1-SD1-Pad22)" class="Default">
+      <node ref="U1" pin="22" pinfunction="SD1_22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1-SD2-Pad16)" class="Default">
+      <node ref="U1" pin="16" pinfunction="SD2_16" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U1-SD3-Pad17)" class="Default">
+      <node ref="U1" pin="17" pinfunction="SD3_17" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U1-SENSOR_VN-Pad4)" class="Default">
+      <node ref="U1" pin="4" pinfunction="SENSOR_VN_4" pintype="input+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U1-SENSOR_VP-Pad3)" class="Default">
+      <node ref="U1" pin="3" pinfunction="SENSOR_VP_3" pintype="input+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U1-TXD0-Pad35)" class="Default">
+      <node ref="U1" pin="35" pinfunction="TXD0_35" pintype="output+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U2-SD_MODE-PadJP1.3)" class="Default">
+      <node ref="U2" pin="JP1.3" pinfunction="SD_MODE_JP1.3" pintype="input+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U3-SD_MODE-PadJP1.3)" class="Default">
+      <node ref="U3" pin="JP1.3" pinfunction="SD_MODE_JP1.3" pintype="input+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U4-SD_MODE-PadJP1.3)" class="Default">
+      <node ref="U4" pin="JP1.3" pinfunction="SD_MODE_JP1.3" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
